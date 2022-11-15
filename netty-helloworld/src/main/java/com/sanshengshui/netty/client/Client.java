@@ -10,6 +10,12 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * client类注释
+ *
+ * @author wang
+ * @date 2022-11-15 16:10:18
+ **/
 public final class Client {
     public static void main(String[] args) throws Exception {
         EventLoopGroup group = new NioEventLoopGroup();
